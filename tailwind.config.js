@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        // "font-mono" class'ı artık Noto Sans Mono kullanacak
+        mono: ["'Noto Sans Mono'", "Courier New", "monospace"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

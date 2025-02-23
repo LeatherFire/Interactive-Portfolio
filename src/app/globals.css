@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+pre {
+  /* font-mono Tailwind utility class'ı da bu font ailesini kullanacak */
+  font-family: 'Noto Sans Mono', 'Courier New', monospace;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
